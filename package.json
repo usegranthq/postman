@@ -1,0 +1,30 @@
+{
+  "name": "postman",
+  "private": true,
+  "description": "Email Sender for useGrant.dev",
+  "author": "Sibiraj",
+  "repository": "github:usegranthq/postman",
+  "scripts": {
+    "dev": "tsx watch index.tsx",
+    "start": "tsx index.tsx"
+  },
+  "dependencies": {
+    "@react-email/components": "^0.0.25",
+    "@types/react": "^18.3.11",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.15",
+    "react": "^18.3.1",
+    "resend": "^4.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/nodemailer": "^6.4.16",
+    "express": "^5.0.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
